@@ -1,0 +1,1 @@
+I am not familiar to PHP but from my research, I think the issue is that '".$_GET' should not have a . and it should be '"$_GET'

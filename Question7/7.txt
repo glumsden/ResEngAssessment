@@ -1,0 +1,2 @@
+I found it interesting that the if statement is satisfied if the size of 'buf' is simply greater than 0. I would have thought we would specifiy a maximum length it could be to prevent a buffer overflow. If fprintf is a set-root-uid program, we could escalate privileges to root.
+To conclusively prove the vulnerability was exploited, we could perhaps leave a simple .txt file in /root directory with a message that this file was left by the Nessus scanner to prove we gained access.

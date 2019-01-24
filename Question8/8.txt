@@ -1,0 +1,1 @@
+Similar to 7, we could use the ls -l command to include an output of the /root directory in the plugin output to prove we gained privileged access.

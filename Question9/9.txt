@@ -1,0 +1,4 @@
+We open a tcp connection to port 22
+If we don't get anything we exit the check
+We instantiate 'r' with what we are reading from the socket. We have a maximum length set of 4k
+Then, if 'r' begins the line with SSH- (we are checking this with a regex), we set the plugin output with the port number, the sentence "The remote SSH banner is " and concatenate the banner from 'r'
